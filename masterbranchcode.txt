@@ -11,66 +11,64 @@ If you wish to set tracking information for this branch you can do so with:
 
     git branch --set-upstream-to=origin/<branch> product-release1-feature1
 
-
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git checkout master
 Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (master)
+/d/saikumar/gitflow (master)
 $ cls
 bash: cls: command not found
-cle
-568582@LT047014 MINGW64 /d/saikumar/gitflow (master)
+
+/d/saikumar/gitflow (master)
 $ clear
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (master)
+/d/saikumar/gitflow (master)
 $ git pull
 Already up to date.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (master)
+/d/saikumar/gitflow (master)
 $ git checkout product-release1
 Switched to branch 'product-release1'
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git add *
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git commit -m "product-release1 file added"
 [product-release1 cbd86b5] product-release1 file added
  1 file changed, 1 insertion(+), 1 deletion(-)
-
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git checkout product-release1-feature1
 Switched to branch 'product-release1-feature1'
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git add *
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git commit -m "product-release1-feature1 file added"
 [product-release1-feature1 b2f2ecc] product-release1-feature1 file added
  1 file changed, 1 insertion(+)
  create mode 100644 product-release1-feature1.txt
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git merge product-release1
 hint: Waiting for your editor to close the file... "code merge"
 Merge made by the 'recursive' strategy.
  product-release1.txt | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ "code merge""
 > git  commit -m "code merge completed"
 > ^C
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git commit -m "code merged"
 On branch product-release1-feature1
 nothing to commit, working tree clean
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git pull
 There is no tracking information for the current branch.
 Please specify which branch you want to merge with.
@@ -83,23 +81,23 @@ If you wish to set tracking information for this branch you can do so with:
     git branch --set-upstream-to=origin/<branch> product-release1-feature1
 
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git add *
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git commit -m "feature1 file added"
 On branch product-release1-feature1
 nothing to commit, working tree clean
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git checkout product-releae1-feature1
 error: pathspec 'product-releae1-feature1' did not match any file(s) known to gi                                                                                                                t.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git checkout product-release1
 Switched to branch 'product-release1'
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git push -u origin product-release1
 Counting objects: 6, done.
 Delta compression using up to 4 threads.
@@ -111,11 +109,11 @@ To https://github.com/saikumar162/gitflow.git
    e1608c3..cbd86b5  product-release1 -> product-release1
 Branch 'product-release1' set up to track remote branch 'product-release1' from                                                                                                                 'origin'.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git checkout product-release1-feature1
 Switched to branch 'product-release1-feature1'
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git push -u origin product-release1-feature1
 Counting objects: 5, done.
 Delta compression using up to 4 threads.
@@ -127,56 +125,56 @@ To https://github.com/saikumar162/gitflow.git
    e1608c3..2c37ae3  product-release1-feature1 -> product-release1-feature1
 Branch 'product-release1-feature1' set up to track remote branch 'product-releas                                                                                                                e1-feature1' from 'origin'.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git merge product-release1
 Already up to date.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git checkout product-release1
 Switched to branch 'product-release1'
 Your branch is up to date with 'origin/product-release1'.
 git pull
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git pull
 Already up to date.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git checkout product-release1-feature1
 Switched to branch 'product-release1-feature1'
 Your branch is up to date with 'origin/product-release1-feature1'.
-gi
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+git
+/d/saikumar/gitflow (product-release1-feature1)
 $ git pull
 Already up to date.
 git m
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git merge product-release1
 Already up to date.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git commit -m "code merged"
 On branch product-release1-feature1
 Your branch is up to date with 'origin/product-release1-feature1'.
 
 nothing to commit, working tree clean
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git checkout product-release1
 Switched to branch 'product-release1'
 Your branch is up to date with 'origin/product-release1'.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ echo
 
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git ls
 git: 'ls' is not a git command. See 'git --help'.
 
 The most similar command is
         lfs
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git lfs
 git-lfs/2.3.4 (GitHub; windows amd64; go 1.8.3; git d2f6752f)
 git lfs <command> [<args>]
@@ -256,46 +254,45 @@ Low level commands
 * git lfs smudge:
     Git smudge filter that converts pointer in blobs to the actual content.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git ls-files
 masterbranchcode.txt
 product-release1.txt
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git checkout product-release1-feature1
 Switched to branch 'product-release1-feature1'
 Your branch is up to date with 'origin/product-release1-feature1'.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git ls-files
 masterbranchcode.txt
 product-release1-feature1.txt
 product-release1.txt
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git add *
-
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git push -u origin product-release1-feature1
 Everything up-to-date
 Branch 'product-release1-feature1' set up to track remote branch 'product-releas                                                                                                                e1-feature1' from 'origin'.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git ls-files
 masterbranchcode.txt
 product-release1-feature1.txt
 product-release1.txt
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git merge product-release1
 Already up to date.
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1-feature1)
+/d/saikumar/gitflow (product-release1-feature1)
 $ git checkout product-release1
 Switched to branch 'product-release1'
 Your branch is up to date with 'origin/product-release1'.
 gi
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git merge product-release1-feature1
 Updating cbd86b5..2c37ae3
 Fast-forward
@@ -303,18 +300,18 @@ Fast-forward
  1 file changed, 1 insertion(+)
  create mode 100644 product-release1-feature1.txt
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git ls-files
 masterbranchcode.txt
 product-release1-feature1.txt
 product-release1.txt
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ git tag -a product-release1_tag1 -m "product release1 tag1"
 fatal: tag 'product-release1_tag1' already exists
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $ ^C
 
-568582@LT047014 MINGW64 /d/saikumar/gitflow (product-release1)
+/d/saikumar/gitflow (product-release1)
 $
